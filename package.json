@@ -1,0 +1,35 @@
+{
+  "name": "some-service", "version": "0.0.1",
+
+  "description": "some service dsl",
+
+  "keywords": [
+    "some", "service", "domain", "specific", "language"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somejs/some-service.git"
+  },
+
+  "author": {
+    "name": "Michael F", "email": "tehfreak@awesome39.com"
+  },
+
+  "main": "./index",
+
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+
+  "engines": {
+    "node": ">=0.8"
+  },
+
+  "license": "MIT"
+}
