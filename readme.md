@@ -3,13 +3,16 @@
 Язык декларативного моделирования сервисов.
 
  
-## Требует гармонию
-Установите флаг запуска ```--harmony``` или ```--harmony_proxies```.
-
- 
 ## Установка
 ```
 npm install https://github.com/somejs/some-service/archive/master.tar.gz
 npm test
 ```
 Зависимостей нет. Для тестирования необходимы **[mocha]()** и **[chai]()**.
+
+ 
+
+Требует гармонию. Установите флаг запуска ```--harmony``` или ```--harmony_proxies```:
+```
+node --harmony index.js
+```

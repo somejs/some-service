@@ -25,12 +25,12 @@ var $= module.exports= function $(service) {
             return service[k]
         }
     }
-    ,   function (name, properties) {
+    ,   function () {
             return $(
-                service.define(name, properties)
+                service.define.apply(service, arguments)
             )
     }
-    ,   function (data) {
-            return service.create(data)
+    ,   function () {
+            return service.create.apply(service, arguments)
     })
 }
